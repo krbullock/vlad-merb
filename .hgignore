@@ -1,0 +1,6 @@
+syntax: glob
+*.DS_Store
+*~
+pkg/
+doc/
+vlad-1.4.0*

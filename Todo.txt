@@ -1,0 +1,30 @@
+~/Source/Projects: sow vlad-merb
+cp -r /Users/kbullock/.hoe_template vlad_merb
+erb: .autotest.erb
+erb: History.txt.erb
+erb: Manifest.txt.erb
+erb: README.txt.erb
+erb: Rakefile.erb
+erb: bin/file_name.erb
+erb: lib/file_name.rb.erb
+erb: test/test_file_name.rb.erb
+mv .autotest.erb .autotest
+mv History.txt.erb History.txt
+mv Manifest.txt.erb Manifest.txt
+mv README.txt.erb README.txt
+mv Rakefile.erb Rakefile
+mv bin/file_name.erb bin/vlad_merb
+mv lib/file_name.rb.erb lib/vlad_merb.rb
+mv test/test_file_name.rb.erb test/test_vlad_merb.rb
+
+... done, now go fix all occurrences of 'FIX':
+
+√ vlad_merb/Rakefile:7:  # developer('FIX', 'FIX@example.com')
+√ vlad_merb/README.txt:3:* FIX (url)
+√ vlad_merb/README.txt:7:FIX (describe your package)
+√ vlad_merb/README.txt:11:* FIX (list of features or problems)
+√ vlad_merb/README.txt:15:  FIX (code sample of usage)
+√ vlad_merb/README.txt:19:* FIX (list of requirements)
+√ vlad_merb/README.txt:23:* FIX (sudo gem install, anything else)
+√ vlad_merb/README.txt:29:Copyright (c) 2009 FIX
+  

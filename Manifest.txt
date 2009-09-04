@@ -1,0 +1,9 @@
+.autotest
+History.txt
+License.txt
+Manifest.txt
+README.txt
+Rakefile
+Todo.txt
+lib/vlad/merb.rb
+test/test_vlad_merb.rb
