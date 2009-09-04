@@ -19,6 +19,7 @@ require 'vlad'
 
 module Vlad
   module Merb
+    # Only needed to mollify Hoe.
     VERSION = '2.0.0'
   end
 end
@@ -42,6 +43,7 @@ namespace :vlad do
   #set :merb_pid_file,      nil
   #set :merb_prefix,        nil
 
+  # Runs +cmd+ using sudo if the +:use_sudo+ variable is set.
   def maybe_sudo(cmd)
     if use_sudo
       sudo cmd
