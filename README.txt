@@ -1,6 +1,8 @@
 = vlad-merb
 
-* http://bitbucket.org/krbullock/vlad-merb
+* http://hitsquad.rubyforge.org/vlad-merb/
+* http://rubyforge.org/projects/hitsquad/
+* http://bitbucket.org/krbullock/vlad-merb/
 
 == DESCRIPTION:
 
@@ -51,7 +53,7 @@ merb_group::        The group that the Merb daemons should run as.
 
 (The MIT License)
 
-Copyright (c) 2009 Kevin R. Bullock.
+Copyright (c) 2009 Kevin Bullock and the rest of the Ruby Hit Squad
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
