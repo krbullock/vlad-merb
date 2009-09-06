@@ -3,3 +3,8 @@
 * 1 major enhancement
 
   * Birthday!
+
+  * Bring Merb support up to speed with recent versions of Merb.
+
+  * Add deploy variables to run Merb as another user, and to be able to use
+    sudo.
