@@ -27,7 +27,7 @@ namespace :vlad do
   set :merb_servers,      3
   set :merb_user,         nil
   set :merb_group,        nil
-  set :merb_use_sudo,     nil
+  set :merb_use_sudo,     false
 
   # maybe needed later
   #set :merb_log_file,      nil

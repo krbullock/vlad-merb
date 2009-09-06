@@ -48,6 +48,9 @@ merb_servers::      The number of Merb daemons to run. Defaults to 3.
 merb_user::         The user that the Merb daemons should run as. Must be
                     specified along with merb_group.
 merb_group::        The group that the Merb daemons should run as.
+merb_use_sudo::     Whether to use sudo to run the 'merb' command on the remote
+                    host. Probably necessary if specifying merb_user and
+                    merb_group. Defaults to false.
 
 == LICENSE:
 
