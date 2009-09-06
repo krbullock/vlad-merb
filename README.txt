@@ -36,7 +36,7 @@ it a bit more robust.
 == VARIABLES:
 
 merb_command::      Defaults to 'merb'.
-merb_adapter::      The Rack adapter to use. Defaults to 'mongrel' See
+merb_adapter::      The Rack adapter to use. Defaults to 'mongrel'. See
                     'merb --help' for available adapters.
 merb_environment::  The Merb environment to use (one of: development, test,
                     production).
