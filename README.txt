@@ -6,9 +6,9 @@
 
 == DESCRIPTION:
 
-Merb support for Vlad. Vlad's documentation includes some example code to make
-vlad:start and vlad:stop work with Merb; this plugin makes it so you don't have
-to add it to every deploy file of every app, and makes it a bit more robust.
+Merb support for Vlad. Prior to 2.0.0, Vlad included support to make vlad:start
+and vlad:stop work with Merb; this plugin adds Merb support back in, and makes
+it a bit more robust.
 
 == FEATURES/PROBLEMS:
 
