@@ -45,12 +45,12 @@ namespace :vlad do
     cmd << " --cluster-nodes #{merb_servers}"
     cmd << " --user #{merb_user}" if merb_user
     cmd << " --group #{merb_group}" if merb_group
-    Vlad::Merb.maybe_sudo cmd
+    Vlad::Merb.maybe_sudo %(sh -c '#{cmd}')
   end
 
   desc "Stop the app servers"
   remote_task :stop_app, :roles => :app do
     cmd = "#{merb_command} -m #{current_path} -K all"
-    Vlad::Merb.maybe_sudo cmd
+    Vlad::Merb.maybe_sudo %(sh -c '#{cmd}')
   end
 end
