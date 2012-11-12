@@ -2,7 +2,7 @@ require 'vlad'
 
 module Vlad
   module Merb
-    VERSION = '2.0.0' #:nodoc:
+    VERSION = '2.1.0' #:nodoc:
 
     # Runs +cmd+ using sudo if the +:merb_use_sudo+ variable is set.
     def self.maybe_sudo(cmd)
