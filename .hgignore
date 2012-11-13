@@ -1,6 +1,7 @@
 syntax: glob
 *.DS_Store
 *~
+*.sw?
 pkg/
 doc/
 vlad-1.4.0*
